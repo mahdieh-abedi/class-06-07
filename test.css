@@ -31,3 +31,10 @@ div h3:first-of-type{
     text-align: left;
     color: grey;
 }
+#icon-container{
+    text-align: right;
+    border-bottom: black 3px solid;
+}
+#icon-container span{
+    color: aqua;
+}
