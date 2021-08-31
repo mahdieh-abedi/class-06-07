@@ -6,7 +6,7 @@ body{
     margin: auto;
     text-align: center;
 }
-.main-container h2 {
+.main-container-h2 {
     color: grey;
     font-size: 14px;
     margin-top: 5px;
@@ -17,12 +17,19 @@ body{
     margin-top: 5px;
     text-align: left;
 }
-#avatar-img{
+.avatar-img{
     width: 100px;
     height: 100px;
     border-radius: 100%;
     margin-top: -30px;
     border: solid #ffffff 7px;
+}
+.avatar-img-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    margin: 10px;
 }
 
 div h3:first-of-type{
@@ -37,4 +44,30 @@ div h3:first-of-type{
 }
 #icon-container span{
     color: aqua;
+}
+h6{
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+.bottom-box{
+    background: #d4cfcf;
+    text-align: left;
+    height: 150px;
+    margin: 10px;
+}
+h1{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+h5{
+    font-size: 11px;
+    text-align: left;
+}
+table{
+    width: 100%;
+    text-align: left;
+    vertical-align: center;
+    border-collapse: collapse;
 }
